@@ -14445,7 +14445,7 @@ drill 1.0 mm</description>
 <part name="P-5" library="supply1" deviceset="-12V" device=""/>
 <part name="CUTOFF" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
-<part name="R9" library="rcl" deviceset="R-US_" device="0207/7" value="150k"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="CV1" library="solpad" deviceset="LSP10" device=""/>
 <part name="CV1_NORM" library="solpad" deviceset="LSP10" device=""/>
@@ -14460,12 +14460,10 @@ drill 1.0 mm</description>
 <part name="R8" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="CV1_LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="24DB_OUT" library="solpad" deviceset="LSP10" device=""/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="P-4" library="supply1" deviceset="-12V" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-npn" deviceset="2N3904" device=""/>
-<part name="Q5" library="transistor-pnp" deviceset="2N3906" device=""/>
 <part name="D3" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="D4" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="D5" library="diode" deviceset="1N4148" device="DO35-7"/>
@@ -14506,7 +14504,7 @@ drill 1.0 mm</description>
 <part name="RES_CV" library="solpad" deviceset="LSP10" device=""/>
 <part name="R13" library="rcl" deviceset="R-US_" device="0207/7" value="220k"/>
 <part name="R14" library="rcl" deviceset="R-US_" device="0207/7" value="220k"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="0207/7" value="1M"/>
 <part name="P+11" library="supply1" deviceset="+12V" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R16" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
@@ -14549,9 +14547,9 @@ drill 1.0 mm</description>
 <instance part="GND6" gate="1" x="-86.36" y="-22.86"/>
 <instance part="R5" gate="G$1" x="-45.72" y="60.96" rot="R180"/>
 <instance part="R11" gate="G$1" x="-71.12" y="-12.7" rot="R180"/>
-<instance part="FREQ_INIT" gate="G$1" x="-76.2" y="-35.56"/>
-<instance part="P+3" gate="1" x="-76.2" y="-25.4"/>
-<instance part="P-2" gate="1" x="-76.2" y="-45.72"/>
+<instance part="FREQ_INIT" gate="G$1" x="-45.72" y="-30.48" rot="MR0"/>
+<instance part="P+3" gate="1" x="-45.72" y="-20.32"/>
+<instance part="P-2" gate="1" x="-45.72" y="-40.64"/>
 <instance part="Q2" gate="G1" x="2.54" y="30.48"/>
 <instance part="Q3" gate="G$1" x="93.98" y="20.32" rot="R180"/>
 <instance part="GND17" gate="1" x="104.14" y="17.78"/>
@@ -14575,14 +14573,12 @@ drill 1.0 mm</description>
 <instance part="GND5" gate="1" x="-58.42" y="81.28"/>
 <instance part="IN1" gate="1" x="-66.04" y="99.06" rot="R90"/>
 <instance part="R8" gate="G$1" x="-45.72" y="91.44"/>
-<instance part="CV1_LEVEL" gate="G$1" x="-81.28" y="15.24"/>
-<instance part="GND7" gate="1" x="-81.28" y="5.08"/>
-<instance part="24DB_OUT" gate="1" x="327.66" y="40.64" rot="R270"/>
+<instance part="CV1_LEVEL" gate="G$1" x="-86.36" y="15.24"/>
+<instance part="GND7" gate="1" x="-86.36" y="5.08"/>
 <instance part="P+4" gate="1" x="-78.74" y="169.672"/>
 <instance part="P-4" gate="1" x="-78.74" y="133.604"/>
 <instance part="GND8" gate="1" x="-91.44" y="144.78"/>
 <instance part="Q1" gate="G1" x="-12.7" y="60.96"/>
-<instance part="Q5" gate="G$1" x="284.48" y="132.08" rot="MR180"/>
 <instance part="D3" gate="G$1" x="-10.16" y="149.86" rot="R270"/>
 <instance part="D4" gate="G$1" x="-10.16" y="119.38" rot="R270"/>
 <instance part="D5" gate="G$1" x="-10.16" y="106.68" rot="R270"/>
@@ -14687,7 +14683,7 @@ drill 1.0 mm</description>
 <segment>
 <pinref part="CV1_LEVEL" gate="G$1" pin="A"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-81.28" y1="7.62" x2="-81.28" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="7.62" x2="-86.36" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -14760,7 +14756,7 @@ drill 1.0 mm</description>
 <segment>
 <pinref part="FREQ_INIT" gate="G$1" pin="E"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
-<wire x1="-76.2" y1="-27.94" x2="-76.2" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-22.86" x2="-45.72" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$5" pin="V+"/>
@@ -14822,7 +14818,7 @@ drill 1.0 mm</description>
 <segment>
 <pinref part="FREQ_INIT" gate="G$1" pin="A"/>
 <pinref part="P-2" gate="1" pin="-12V"/>
-<wire x1="-76.2" y1="-43.18" x2="-76.2" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-38.1" x2="-45.72" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$5" pin="V-"/>
@@ -14969,13 +14965,14 @@ drill 1.0 mm</description>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="CV1_LEVEL" gate="G$1" pin="S"/>
+<wire x1="-81.28" y1="15.24" x2="-76.2" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
 <segment>
 <pinref part="CV1" gate="1" pin="MP"/>
 <pinref part="CV1_LEVEL" gate="G$1" pin="E"/>
-<wire x1="-101.6" y1="20.32" x2="-81.28" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="20.32" x2="-86.36" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -15188,8 +15185,8 @@ drill 1.0 mm</description>
 <segment>
 <pinref part="FREQ_INIT" gate="G$1" pin="S"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="-71.12" y1="-35.56" x2="-58.42" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-35.56" x2="-58.42" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-30.48" x2="-58.42" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-30.48" x2="-58.42" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
