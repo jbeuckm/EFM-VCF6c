@@ -39,7 +39,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -111,6 +111,17 @@
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="24.765" y1="63.5" x2="12.7" y2="38.1" width="1.778" layer="46"/>
+<wire x1="12.7" y1="38.1" x2="9.525" y2="30.48" width="1.778" layer="46"/>
+<wire x1="9.525" y1="30.48" x2="0" y2="-0.635" width="1.778" layer="46"/>
+<wire x1="0" y1="-0.635" x2="97.155" y2="-0.635" width="1.778" layer="46"/>
+<wire x1="97.155" y1="-0.635" x2="99.06" y2="1.27" width="1.778" layer="46"/>
+<wire x1="99.06" y1="1.27" x2="99.06" y2="5.08" width="1.778" layer="46"/>
+<wire x1="99.06" y1="5.08" x2="93.345" y2="11.43" width="1.778" layer="46"/>
+<wire x1="93.345" y1="11.43" x2="93.345" y2="48.26" width="1.778" layer="46"/>
+<wire x1="93.345" y1="48.26" x2="81.915" y2="67.31" width="1.778" layer="46"/>
+<wire x1="81.915" y1="67.31" x2="31.115" y2="67.31" width="1.778" layer="46"/>
+<wire x1="31.115" y1="67.31" x2="24.765" y2="63.5" width="1.778" layer="46"/>
 </plain>
 <libraries>
 <library name="rcl">
