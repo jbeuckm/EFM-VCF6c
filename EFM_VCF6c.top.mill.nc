@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../eurorack/EFM-VCF6c/EFM_VCF6c.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 10/8/15 9:11 PM)
+(This file generated 10/9/15 10:03 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 15000.0000)
