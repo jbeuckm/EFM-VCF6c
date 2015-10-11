@@ -14747,7 +14747,7 @@ drill 1.0 mm</description>
 <wire x1="-22.86" y1="-10.16" x2="-22.86" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="N$38" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="+12V"/>
 <pinref part="P+2" gate="1" pin="+12V"/>

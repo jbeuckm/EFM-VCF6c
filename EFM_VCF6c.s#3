@@ -14489,7 +14489,7 @@ drill 1.0 mm</description>
 <part name="C12" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
 <part name="R17" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-US_" device="0309/12" value="10k"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
 <part name="P+7" library="supply1" deviceset="+12V" device=""/>
 <part name="P-5" library="supply1" deviceset="-12V" device=""/>
 <part name="R15" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
